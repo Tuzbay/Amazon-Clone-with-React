@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
 
 function App() {
   return (
@@ -7,7 +8,77 @@ function App() {
       <Routes>
         <Route path="/checkokut" element={<h1>Checkout</h1>} />
         <Route path="/login" element={<h1>Login</h1>} />
-        <Route path="/" element={<h2>HomePage</h2>} />
+        <Route
+          path="/"
+          element={
+            <>
+              <Header />
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+              <div>HOME PAGE!</div>
+            </>
+          }
+        />
       </Routes>
     </Router>
   );
