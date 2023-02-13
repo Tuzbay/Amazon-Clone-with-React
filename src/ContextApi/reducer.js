@@ -1,13 +1,6 @@
 export const initialState = {
-  basket: [
-    {
-      id: "3432432",
-      title: "Tunay Uzbay YELCE",
-      price: 599.95,
-      rating: 4,
-      image: "https://m.media-amazon.com/images/I/91fAU6mxFsL._AC_SX679_.jpg",
-    },
-  ],
+  basket: [],
+  user: null,
 };
 
 export const getBasketTotal = (basket) =>
@@ -16,6 +9,11 @@ export const getBasketTotal = (basket) =>
 const reducer = (state, action) => {
   console.log(action);
   switch (action.type) {
+    case "SET_USER":
+      return {
+        ...state,
+        user: action.user,
+      };
     case "ADD_TO_BASKET":
       return {
         ...state,
